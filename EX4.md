@@ -22,11 +22,11 @@ SQL> CREATE TABLE empl(
 SQL> CREATE OR REPLACE PROCEDURE emp_data AS
   2      BEGIN
   3      INSERT INTO empl(empid,empname,dept,salary)
-  4      values(1,'SHRIRAM','MD',10000000);
+  4      values(1,'VINITHA','MD',10000000);
   5      INSERT INTO empl(empid,empname,dept,salary)
-  6      values(2,'KANISHKAR','HR',500000);
+  6      values(2,'YUVASHAKTHI','HR',50000);
   7      INSERT INTO empl(empid,empname,dept,salary)
-  8      values(3,'PRAVEEN','IT',200000);
+  8      values(3,'PRAVEEN','IT',20000);
   9      COMMIT;
  10     FOR emp_rec IN (SELECT * FROM empl)LOOP
  11     DBMS_OUTPUT.PUT_LINE('EMPLOYEE ID:'||emp_rec.empid||',EMPLOYEE NAME:'|| emp_rec.empname||
