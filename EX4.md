@@ -24,7 +24,7 @@ SQL> CREATE OR REPLACE PROCEDURE emp_data AS
   3      INSERT INTO empl(empid,empname,dept,salary)
   4      values(1,'VINITHA','MD',10000000);
   5      INSERT INTO empl(empid,empname,dept,salary)
-  6      values(2,'YUVASHAKTHI','HR',50000);
+  6      values(2,'YUVASHAKTHI','HR',40000);
   7      INSERT INTO empl(empid,empname,dept,salary)
   8      values(3,'PRAVEEN','IT',20000);
   9      COMMIT;
